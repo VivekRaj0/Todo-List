@@ -224,7 +224,7 @@ const TodoList = () => {
           <div className="dropdown">
             <button className="dropbtn">Filter</button>
             <div className="dropdown-content">
-              <a href="#" id="all" onClick={() => handleFilterChange('all')}>
+              {/* <a href="#" id="all" onClick={() => handleFilterChange('all')}>
                 All
               </a>
               <a href="#" id="rem" onClick={() => handleFilterChange('uncompleted')}>
@@ -232,7 +232,16 @@ const TodoList = () => {
               </a>
               <a href="#" id="com" onClick={() => handleFilterChange('completed')}>
                 Completed
-              </a>
+              </a> */}
+              <button id="all" onClick={() => handleFilterChange('all')}>
+                All
+              </button>
+              <button id="rem" onClick={() => handleFilterChange('uncompleted')}>
+                Uncompleted
+              </button>
+              <button id="com" onClick={() => handleFilterChange('completed')}>
+                Completed
+              </button>
             </div>
           </div>
 
