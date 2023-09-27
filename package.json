@@ -1,5 +1,6 @@
 {
   "name": "todolist",
+  "homepage": "https://VivekRaj0.github.io/Todo-List",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
